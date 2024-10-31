@@ -1,0 +1,399 @@
+.sw-spell-error {
+   /* border-bottom:2px solid red;*/
+    background: transparent url(images/spellerror.gif) repeat-x scroll left bottom;
+    cursor:default;
+}
+
+.swNewPostMeta td, .swNewPostMeta th {
+    padding: 6px;
+    border-style:none;
+}
+
+
+
+/* Setup em for GUI */
+#swControlPanel, .ui-dialog, .sw-progress-dialog {
+    font-size:16px;
+}
+
+#swControlPanel td {
+    padding: 2px;
+    background-color:transparent;
+    border-style:none;
+}
+
+.swwp-cpan-link {
+    font-size: 12px;
+}
+
+#swControlPanel .swwp-rightcell {
+  /*  border-left: 2px solid #CCCCCC; */
+}
+
+.sw-dialog-title {
+    padding : 2px;
+}
+
+.ui-draggable .sw-dialog-title {
+    cursor:move;
+}
+
+.sw-progress-dialog {
+    /* TODO: IE6 FIX */
+    position:fixed;
+    z-index:1010;
+    padding:12px;
+}
+
+.swwp-more {
+ 
+     
+}
+
+.swwp-gallery {
+    display: block;
+    background:#FFFFCC url(images/gallery.png) no-repeat scroll center center;
+    border: 1px dotted #CC0000;
+    height:300px;
+    width:99%;
+    cursor:pointer;
+}
+
+.swwp-gallery:hover {
+    background-color:#f3ffa5;
+    border: dashed 1px black;
+}
+
+.es-hover:hover {
+    background-color:#f3ffa5;
+    margin:-1px;
+    border: dashed 1px black;
+}
+
+
+.swwp-post-preview:hover {
+    background-color:#fff3a5;
+    margin:-1px;
+    border: dashed 1px black;
+}
+
+
+.gallery {
+    cursor:pointer;
+}
+
+.sw-edit-notifier {
+    position:absolute;
+   /* background-color:#a5ffe5;
+    border: solid 1px black;*/
+    padding: 0 8px 0 8px;
+    font-size:small;
+}
+
+.sw-list-item {
+    cursor:pointer;
+}
+
+/* Seaweed JQuerry UI Elements */
+
+#swControlPanel .sw-button {
+	width:120px;
+}
+
+.sw-overlay-basic {
+    background-color:black;
+}
+
+.swwp-dialog-button {
+	margin:1px;
+	float:right;
+	/*left:100px;*/
+    cursor:pointer;
+    padding:1px;
+}
+
+.swwp-dialog-button:hover, .swwp-dialog-button:focus {
+    padding:0;
+}
+
+.sw-button { 
+    font-size: 12px; 
+    outline: 0; 
+    margin:0; 
+    padding: .4em 1em; 
+    text-decoration:none !important; 
+    cursor:pointer; 
+    position: relative; 
+    text-align: center; 
+    zoom: 1; 
+}
+
+.sw-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+
+a.sw-button { float:left; }
+
+/* remove extra button width in IE */
+button.sw-button { width:auto; overflow:visible; }
+
+.sw-button-icon-solo { display:block; width:8px; text-indent: -9999px; }	 /* solo icon buttons must have block properties for the text-indent to work */	
+
+
+.sw-combo {
+    font-size: 12px;
+    padding: 1px;
+    cursor:pointer;
+    float:left;
+    font-family:sans-serif;
+    height: 16px;
+    padding-top:2px;
+}
+
+.sw-combo-arrow {
+    float:right;
+}
+
+.sw-combo-value {
+    display:block;
+    float:left;
+}
+
+.sw-dropdown {
+    position:absolute;
+    z-index:1500;
+}
+
+.sw-dropdown .sw-button {
+    width:100%;
+}
+
+.sw-context-menu {
+    background-color: transparent;
+    border-style:none;
+}
+
+.sw-combo-dropdown {
+    padding:2px;
+    background-color:white;
+}
+
+.sw-combo-item {
+    outline-width:0px;
+    cursor:default;
+}
+
+.sw-combo-item p, .sw-combo-item pre, .sw-combo-item address, .sw-combo-item h1, .sw-combo-item h2, .sw-combo-item h3, .sw-combo-item h4, .sw-combo-item h5, .sw-combo-item h6 {
+    padding:0;
+    margin:0;
+}
+
+.sw-combo-title {
+    background-color:#cccccc;
+    font-weight:bold;
+    border-bottom: 1px dashed black;
+}
+
+.sw-suggest-msg-item {
+    width:100%;
+    padding: 2px 12px 2px 12px;
+    border: 1px solid black;
+    background-color:#cccccc;
+    font-weight:bold;
+}
+
+.sw-dropdown .sw-button {
+    margin-top:-1px;
+}
+
+.sw-color-select {
+    float:left;
+}
+
+.sw-colorsel-dropdown {
+    padding:8px;
+}
+
+.sw-colorsel-title {
+    display:none;
+}
+
+td.sw-colorsel-table {
+    padding:2px;
+}
+
+.sw-color-option {
+    display:block;
+    width:16px;
+    height:16px;
+}
+
+.sw-colorsel-arrow .ui-icon {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.sw-color-select .ww-icon-forecolor, .sw-color-select .ww-icon-backcolor {
+    height:16px;
+    overflow:hidden;
+}
+
+
+.sw-color-preview {
+    display:block;
+    height : 4px;
+    width: 16px;
+    padding: 0 0 0 0;
+    margin-left:2px;
+    /* IE 6 FIX: */
+    font-size:2px;   
+}
+
+.sw-toolbox { margin: 0;  }
+.sw-toolbox .sw-button { font-size: 12px; }
+
+.sw-edit-context-container {
+    font-weight:bold;
+    font-size:small;
+    padding: 2px 8px;
+}
+
+#swEditContext {
+    font-weight:normal;
+    padding-left:10px;
+}
+
+
+
+/*.sw-link-input, .sw-link-table {
+    width:100%;
+}*/
+.sw-link-input {
+    width:290px;
+}
+
+.sw-image-input {
+    width:320px;
+}
+
+/* WYSIWYG controls */
+.ww-icon {
+    background-repeat:no-repeat;
+    display:block;
+    height:20px;
+    width:20px;
+}
+
+.ww-icon-bold {background-position:0 0}
+.ww-icon-italic {background-position:-60px 0}
+.ww-icon-underline {background-position:-140px 0}
+.ww-icon-strikethrough {background-position:-120px 0}
+.ww-icon-undo {background-position:-160px 0}
+.ww-icon-redo {background-position:-100px 0}
+.ww-icon-cleanup {background-position:-40px 0}
+.ww-icon-bullist {background-position:-20px 0}
+.ww-icon-numlist {background-position:-80px 0}
+.ww-icon-justifyleft {background-position:-460px 0}
+.ww-icon-justifyright {background-position:-480px 0}
+.ww-icon-justifycenter {background-position:-420px 0}
+.ww-icon-justifyfull {background-position:-440px 0}
+.ww-icon-anchor {background-position:-200px 0}
+.ww-icon-indent {background-position:-400px 0}
+.ww-icon-outdent {background-position:-540px 0}
+.ww-icon-link {background-position:-500px 0}
+.ww-icon-unlink {background-position:-640px 0}
+.ww-icon-sub {background-position:-600px 0}
+.ww-icon-sup {background-position:-620px 0}
+.ww-icon-removeformat {background-position:-580px 0}
+.ww-icon-newdocument {background-position:-520px 0}
+.ww-icon-image {background-position:-380px 0}
+.ww-icon-help {background-position:-340px 0}
+.ww-icon-code {background-position:-260px 0}
+.ww-icon-hr {background-position:-360px 0}
+.ww-icon-visualaid {background-position:-660px 0}
+.ww-icon-charmap {background-position:-240px 0}
+.ww-icon-paste {background-position:-560px 0}
+.ww-icon-copy {background-position:-700px 0}
+.ww-icon-cut {background-position:-680px 0}
+.ww-icon-blockquote {background-position:-220px 0}
+.ww-icon-forecolor {background-position:-720px 0}
+.ww-icon-backcolor {background-position:-760px 0}
+
+.ww-icon-advhr {background-position:-0px -20px}
+.ww-icon-ltr {background-position:-20px -20px}
+.ww-icon-rtl {background-position:-40px -20px}
+.ww-icon-emotions {background-position:-60px -20px}
+.ww-icon-fullpage {background-position:-80px -20px}
+.ww-icon-fullscreen {background-position:-100px -20px}
+.ww-icon-spell {background-position:-120px -20px}
+.ww-icon-insertdate {background-position:-140px -20px}
+.ww-icon-inserttime {background-position:-160px -20px}
+.ww-icon-absolute {background-position:-180px -20px}
+.ww-icon-backward {background-position:-200px -20px}
+.ww-icon-forward {background-position:-220px -20px}
+.ww-icon-insert_layer {background-position:-240px -20px}
+.ww-icon-insertlayer {background-position:-260px -20px}
+.ww-icon-movebackward {background-position:-280px -20px}
+.ww-icon-moveforward {background-position:-300px -20px}
+.ww-icon-media {background-position:-320px -20px}
+.ww-icon-nonbreaking {background-position:-340px -20px}
+.ww-icon-pastetext {background-position:-360px -20px}
+.ww-icon-pasteword {background-position:-380px -20px}
+.ww-icon-selectall {background-position:-400px -20px}
+.ww-icon-preview {background-position:-420px -20px}
+.ww-icon-print {background-position:-440px -20px}
+.ww-icon-cancel {background-position:-460px -20px}
+.ww-icon-save {background-position:-480px -20px}
+.ww-icon-replace {background-position:-500px -20px}
+.ww-icon-search {background-position:-520px -20px}
+.ww-icon-styleprops {background-position:-560px -20px}
+.ww-icon-table {background-position:-580px -20px}
+.ww-icon-cell_props {background-position:-600px -20px}
+.ww-icon-delete_table {background-position:-620px -20px}
+.ww-icon-delete_col {background-position:-640px -20px}
+.ww-icon-delete_row {background-position:-660px -20px}
+.ww-icon-col_after {background-position:-680px -20px}
+.ww-icon-col_before {background-position:-700px -20px}
+.ww-icon-row_after {background-position:-720px -20px}
+.ww-icon-row_before {background-position:-740px -20px}
+.ww-icon-merge_cells {background-position:-760px -20px}
+.ww-icon-table_props {background-position:-980px -20px}
+.ww-icon-row_props {background-position:-780px -20px}
+.ww-icon-split_cells {background-position:-800px -20px}
+.ww-icon-template {background-position:-820px -20px}
+.ww-icon-visualchars {background-position:-840px -20px}
+.ww-icon-abbr {background-position:-860px -20px}
+.ww-icon-acronym {background-position:-880px -20px}
+.ww-icon-attribs {background-position:-900px -20px}
+.ww-icon-cite {background-position:-920px -20px}
+.ww-icon-del {background-position:-940px -20px}
+.ww-icon-ins {background-position:-960px -20px}
+.ww-icon-pagebreak {background-position:0 -40px}
+
+/* wordpress specific */
+.ww-icon-wpimage {background-position:-60px -40px}
+.ww-icon-wpaudio {background-position:-20px -40px}
+.ww-icon-wpother {background-position:-80px -40px}
+.ww-icon-wpvideo {background-position:-40px -40px}
+
+.ww-button { 
+    float:left;
+    outline: 0; 
+    text-decoration:none !important; 
+    cursor:pointer; 
+    position: relative; 
+    zoom: 1; 
+    width:auto; 
+    overflow:visible;
+}
+
+.ww-seperator {
+	float:left; display:block; background-position:-180px 0; width:2px; height:20px; margin:2px 2px 0 4px
+}
+
+.ww-buttonset { float:left; margin-top:2px;}
+
+.ww-buttonset .ww-button {
+    margin-right:-1px;
+}
+
+
+
